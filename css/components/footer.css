@@ -1,0 +1,124 @@
+.footer {
+    background: #2B4074;
+    padding: 165px 0px 106px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer:before {
+    position: absolute;
+    content: url("../../images/Group 2 1.png");
+    width: 240px;
+    height: 60px;
+    margin-top: -198px;
+    background: #2B4074;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-align: start;
+
+    color: #FFFFFF;
+}
+
+.footer .social {
+
+    column-count: 4;
+    column-rule: 1px solid #7EBF84;
+
+    border-bottom: 1px solid #7EBF84;
+    border-top: 1px solid #7EBF84;
+
+    margin-top: 87px;
+
+}
+
+.footer .social .social-logo {
+    margin: 22px 130px 17px 130px;;
+
+}
+
+.footer .widgets {
+    column-count: 4;
+    column-width: 280px;
+    margin-top: 88px;
+
+}
+
+.footer .widgets .widget {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+
+
+}
+
+.footer .widgets .widget .title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+
+    color: #F9F6E5;
+    margin-bottom: 20px;
+}
+
+.footer .widgets .widget .sub-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.move-to-top {
+
+    background: #F9F6E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding: 13px 136px 11px 0px;
+}
+.move-to-top .arrow{
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.rectangle-1 {
+    width: 15px;
+    height: 15px;
+    background: #2B4074;
+    transform: rotate(45deg);
+}
+.rectangle-2 {
+    width: 15px;
+    height: 15px;
+    background: #F9F6E5;
+    transform: rotate(45deg);
+
+    margin-top: -10px;
+}
+.move-to-top .top{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #4A4A4A;
+}

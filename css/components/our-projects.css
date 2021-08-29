@@ -1,0 +1,156 @@
+.our-project {
+    background: linear-gradient(180deg, #2B4074 0%, rgba(43, 64, 116, 0) 100%);
+    padding: 74px 151px 51px 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-project h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #FFFFFF;
+    position: relative;
+}
+
+.our-project .line {
+
+    position: absolute;
+    width: 103px;
+    height: 8px;
+    margin-top: 85px;
+    background: #FFFFFF;
+}
+
+.our-project .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.our-project .image-gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-project .projects .project {
+    /*width: 25%;*/
+    /*height: 250px;*/
+    /*background-color: #2B4074;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.our-project .projects .project .image-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 283px;
+    height: 250px;
+    background-image: url("../../images/portfolio-1.png");
+    background-size: cover;
+}
+.our-project .projects .project .image-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 283px;
+    height: 250px;
+    background-image: url("../../images/portfolio-2.png");
+    background-size: cover;
+}
+.our-project .projects .project .image-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 283px;
+    height: 250px;
+    background-image: url("../../images/portfolio-3.png");
+    background-size: cover;
+}
+.our-project .projects .project .image-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 283px;
+    height: 250px;
+    background-image: url("../../images/portfolio-4.png");
+    background-size: cover;
+}
+
+.our-project .projects .project .image-title {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #2B4074;
+
+    margin-top: 43px;
+}
+
+.our-project .projects .project .image-hover .buttons {
+    display: flex;
+    width: 76px;
+    height: 33px;
+    flex-direction: row;
+    justify-content: space-between;
+
+    box-sizing: content-box;
+}
+.our-project .projects .project .image-hover{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    background: #F9F6E5;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+    opacity: 80%;
+}
+
+.our-project .project .info-button {
+    background-image: url("../../images/info-button.png");
+    width: 33px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-project .project .search-button {
+    background-image: url("../../images/search.png");
+    width: 33px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-project .projects .project:hover > .image-hover {
+    width: 255px;
+    height: 235px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    margin-top: 7px;
+    opacity: 90%;
+    transition: opacity 0.3s;
+    cursor: pointer;
+
+}

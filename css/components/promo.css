@@ -1,0 +1,56 @@
+/*Promo Style*/
+.promo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 155px 60px 158px;
+    background: #2B4074;
+}
+
+.promo-text1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}
+
+.promo-text2 {
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 112%;
+
+    color: #FFFFFF;
+
+    margin-top: 10px;
+    margin-right: 350px;
+}
+
+.promo .buy-button {
+    width: 215px;
+    height: 55px;
+
+    background: #F9F6E5;
+    border-radius: 3px;
+}
+
+.buy-button-text {
+    /*width: 169px;*/
+    /*height: 18px;*/
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #2B4074;
+
+}

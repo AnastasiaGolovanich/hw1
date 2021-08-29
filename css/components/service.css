@@ -1,0 +1,175 @@
+/*Service block style*/
+.service {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.service .description {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    padding: 90px 62px 122px 62px;
+    text-align: left;
+}
+
+.service .features {
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    /*width: 77%;*/
+}
+
+.service .feature {
+    width: 19.79%;
+    height: auto;
+    /*background-color: aquamarine;*/
+    border-left: 1px solid #F9F6E5;
+    border-bottom: 1px solid #F9F6E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 80px 20px;
+    position: relative;
+}
+
+.service .feature-hover {
+    position: absolute;
+    /*display: none;*/
+    background: #FFFFFF;
+    margin-top: -68px;
+    opacity: 0%
+}
+
+.service .feature:nth-child(7):hover > .feature-hover .sub-title {
+    margin-top: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90%;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #9B9B9B;
+}
+
+.service .feature:hover > .feature-hover {
+    width: 87%;
+    border: 4px solid #2B4074;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 100%;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.service .feature-hover .feature-image {
+    margin-top: 25px;
+}
+
+.service .feature-hover .feature-title-hover {
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+
+    text-align: center;
+
+    color: #4A4A4A;
+}
+
+.service .feature-hover .sub-title {
+    margin-top: 37px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #9B9B9B;
+}
+
+.service .feature-hover .read-more {
+    margin-top: 27px;
+    margin-bottom: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #2B4074;
+}
+
+.service .feature .feature-image {
+    height: 64px;
+    width: 64px;
+}
+
+.service .feature .feature-title {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 37px;
+    text-align: center;
+}
+
+.service .description .title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 49px;
+    line-height: 68px;
+
+    color: #2B4074;
+}
+
+.service .description .sub-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 28px;
+    margin-top: 73px;
+    margin-bottom: 36px;
+    position: relative;
+    color: #4A4A4A;
+
+}
+
+.service .description .sub-title:after {
+    content: "";
+    width: 107px;
+    height: 10px;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    background: #2B4074;
+}
+
+.service .sub-title-2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-right: 42px;
+
+    color: #797979;
+}
